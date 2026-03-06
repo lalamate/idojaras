@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Időjárás</title>
+    <link rel="stylesheet" href="ido.css">
+</head>
+<body>
+    <!--6.	Hozzon létre egy keretet (div), amelynek állítsa be a keret azonosítót! -->
+    <div id="keret">
+        <!--7.	A keretbe szúrja be a forrás.txt állomány teljes tartalmát! -->
+        <h1 id="cim">2017. időjárása</h1>
+
+<p>A Földön a 2017-es évet hőmérsékleti szempontból jelenleg a három legmelegebb év között tartjuk számon. A globálisan rekord meleg 2016 után, az elmúlt év 2015-tel megegyező értékkel került a 3. helyre. A 2017-es év hazánk területén is összességében az átlagosnál melegebb volt.</p>
+
+<p>Az évi középhőmérséklet szinte teljesen megegyezett 2016. évivel, azonban elmaradt az eddigi legmelegebb 2014-es évtől, melyet az 1. ábra szemléltet. Homogenizált, interpolált adatok alapján 2017-ben az országos középhőmérséklet mintegy 0,8 °C-kal haladta meg az 1981-2010-es sokévi átlagot és 11,14 °C-os középhőmérsékleti értékkel 1901 óta a tizenegyedik legmelegebbnek bizonyult. Az országos évi középhőmérséklet adatokhoz illesztett lineáris trend (1. ábra) egyértelmű emelkedést mutat. Az országos évi középhőmérséklet változása az elmúlt 117 évben +1,15 °C-nak, az elmúlt 30 évre vonatkozóan pedig +1,22 °C-nak adódik.</p>
+<hr>
+<h2>Hőmérséklet</h2>
+<!--9.	A kettes szintű címsorok fölé szúrjon be egy-egy vízszintes vonalat! Alájuk pedig egy-egy 2 soros, 1 oszlopos táblázatot!-->
+<table>
+    <tr><!--11.	A táblázatok első sorába szúrja be a megfelelő képeket (grafikon1.gif és grafikon2.gif), -->
+        <td>
+            <img src="graikon1.gif" alt="Az országos havi középhőmérséklet eltérése a sokévi (1981-2010-es) átlagtól 2017-ben" title="Forrás: www.met.hu"><!--Amennyiben a képeket nem tudja betölteni a böngésző, a képaláírásukat írja ki helyette! Ha az egérmutatót a felhasználó a kép fölé helyezi, a Forrás: www.met.hu jelenjen meg!-->
+        </td>
+    </tr>
+    <tr><!--a második sorukba a szükséges képfeliratokat!-->
+        <td>
+            <p class="szurke">Az országos havi középhőmérséklet eltérése a sokévi (1981-2010-es) átlagtól 2017-ben</p>
+            <!--12.	A képfeliratokat sorolja be a szurke osztályba-->
+        </td>
+    </tr>
+</table>
+
+
+<!--13.	Alakítson ki a mintának megfelelő felsorolást a Hőmérséklet bekezdésben! -->
+<ul>
+<li>Januári középhőmérséklet (-4,8 °C) jelentősen elmaradt az 1981-2010-es sokévi átlagtól</li>
+<li>Ezt követően április és szeptember kivételével mindegyik hónap melegebb volt a megszokottnál.</li>
+<li>Márciusban a havi átlag 3,6 °C kal magasabbnak adódott a normálnál.</li>
+<li>Június +2,5 °C</li>
+<li>Augusztus +2,2 °C</li>
+<li>December +2,2 °C</li>
+<li>2017-hez köthető az 5. legmelegebb nyár</li>
+<li>Valamint a 12. legmelegebb tavasz</li>
+</ul>
+<hr>
+<h2>Csapadék</h2>
+<table>
+    <tr><!--11.	A táblázatok első sorába szúrja be a megfelelő képeket (grafikon1.gif és grafikon2.gif), -->
+        <td>
+            <img src="graikon2.gif" alt="Havi csapadékösszegek 2017-ben és az 1981-2010-es átlagértékek (mm)" title="Forrás: www.met.hu"><!--Amennyiben a képeket nem tudja betölteni a böngésző, a képaláírásukat írja ki helyette! Ha az egérmutatót a felhasználó a kép fölé helyezi, a Forrás: www.met.hu jelenjen meg!-->
+        </td>
+    </tr>
+    <tr><!--a második sorukba a szükséges képfeliratokat!-->
+        <td>
+            <p class="szurke">Havi csapadékösszegek 2017-ben és az 1981-2010-es átlagértékek (mm)</p>
+        </td>
+    </tr>
+</table>
+
+
+<!--14.	A Csapadék bekezdésben, a napok jellemzését alakítsa definíciós listává!-->
+<dl>
+    <dt>Március</dt>
+        <dd>2017 márciusa a szokásosnál szárazabb volt, az országos átlag 22,2 mm, ami az 1981-2010-es sokévi átlag csupán 64 %-a. A csapadék leginkább a középső országrészre koncentrálódott, 40-50 mm feletti értékeket eredményezve. Gerecse-tetőn regisztráltuk a legnagyobb havi összeget, 64 mm-rel. Az ország északkeleti és nyugati részein jelentkezett a legkisebb csapadékösszeg, az Őrség egyes részein 5 mm alatti értéket mértünk.</dd>
+    <dt>Szeptember</dt>
+        <dd>A hónap meglehetősen csapadékosnak bizonyult, homogenizált adatok szerint az országos havi csapadékösszeg meghaladta a 95 mm-t. A legcsapadékosabb területek a Dunántúl nyugati részén és a Duna-Tisza közén voltak, egyes helyeken a havi összeg elérte a 200 mm-t is. Ugyanakkor a Tiszántúlon és a Maros mentén mindössze 40 mm hullott.</dd>
+</dl>
+<!--16.	A definíciós lista után szúrja be a top.png képet, melynek azonosítója fel legyen! -->
+<a class="szurke" href="#cim"><img id="fel" src="top.png" alt=""></a>
+<!--A képet alakítsa linkké, mely az oldal tetejére mutasson! -->
+<!--17.	Forrás: www.met.hu felirat legyen a forrásállomány utolsó sorában megadott címre mutató link! Az oldal új lapon nyíljon meg! 18.	A két linket sorolja be a szurke osztályba-->
+<a class="szurke" href="https://met.hu/eghajlat/magyarorszag_eghajlata/eghajlati_visszatekinto/elmult_evek_idojarasa/" target="_blank">Forrás: www.met.hu</a>
+<hr>
+<h2>Hőingás kiszámítása</h2>
+<!--19.	Hozzon létre egy formot a napi hőingás kiszámítására! A form feliratait címkékkel oldja meg! Az egyes adatok közé helyezzen el sortörést! -->
+<form>
+    <label for="minho">A mai legalacsonyabb hőmérésklet:</label><input type="number" id="minho"><br>
+    <label for="maxho">A mai legmagasabb hőmérésklet:</label><input type="number" id="maxho"><br>
+    <button type="button" onclick="szamol()">Számolj!</button>
+    <p id="eredmeny"></p>
+
+</form>
+ 
+    </div>
+    <script>
+        /*22.	A Számolj! feliratú nyomógombra kattintva a script ellenőrizze, hogy a napi minimum hőmérséklet nem magasabb-e, mint a napi maximum! Amennyiben igen, felugró üzenetablakban figyelmeztesse a felhasználót a hibájára! Ha megfelelő adatokat kapott, akkor a minta szerint a form alatti bekezdésbe írja ki az eredményt! */
+        function szamol(){
+            let maxhomerseklet=parseFloat(document.getElementById("maxho").value);
+            let minhomerseklet=parseFloat(document.getElementById("minho").value);
+            if(minhomerseklet>maxhomerseklet)alert("A min hőmérséklet nem lehet nagyobb a max hőmérsékletnél!");
+            document.getElementById("eredmeny").innerHTML=`A napi hőingás: ${maxhomerseklet-minhomerseklet} &#8451 volt`;
+            
+        }
+    </script>
+    
+</body>
+</html>

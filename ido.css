@@ -1,0 +1,113 @@
+
+
+body
+{
+	background-size:100% auto;
+	/*84.	Állítsa be a stíluslapon, hogy a weboldal háttere a background.jpg kép legyen*/
+	background-image: url(background.jpg);
+	/*•	A háttérkép ne mozduljon az oldal görgetésekor!
+•	A háttér ne ismétlődjön
+*/
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*•	Betűtípus: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/*•	Sormagasság: 1.5em;*/
+	line-height: 1.5em;
+}
+
+#keret
+{
+	position:absolute;
+	left:20%;
+	top:5%;
+	box-shadow: 10px -5px 20px 0px rgba(0,0,0,0.5);
+	/*A css-ben módosítsa a keret azonosítóra mutató szelektort úgy, hogy belső margója 2%, szélessége 60%, háttérszíne rgba(255,255,255,0.7) legyen!*/
+	padding: 2%;
+	width: 60%;
+	background-color: rgba(255,255,255,0.7);
+}
+
+p
+{
+	text-align:justify;
+}
+
+table
+{
+	border:outset;
+	width: 80%;/*10.	A css-ben módosítsa a megfelelő szelektort úgy, hogy a táblázatok szélessége 80%, */
+	/*A táblázatokat rendezze középre, a cellákon belüli margó és a cellák közötti távolság 0 legyen!*/
+	margin: 0 auto;
+	padding: 0px;
+}
+td{
+	/*keretük vastagsága 3px legyen!*/
+	border-width: 3px;
+}
+hr
+{
+	background-color:#243f84;
+	height:2px;
+	width:100%;
+}
+
+img
+{
+	width:100%;
+}
+
+ul
+{
+	font-size:small ;
+}
+
+input
+{
+	font-size:medium;
+	margin-top:2%;
+}
+h1,h2{
+	/*8.	Hozza létre a css-ben a megfelelő jelölőket, melyek az egyes- és kettes szintű címsorokat úgy formázzák, hogy #243f84 színben és csupa nagybetűvel jelenjenek meg!*/
+	color: #243f84;
+	text-transform: uppercase;
+}
+.szurke{
+	/*Hozza létre a szurke osztályjelölőt a css-ben az alábbi tulajdonságokkal:
+•	betűk mérete kicsi,
+•	szöveg középre rendezett,
+•	a betűk színkódja #808183,
+•	félkövér stílus,
+•	a szöveg ne legyen aláhúzva!
+*/
+	font-size: small;
+	text-align: center;
+	color: #808183;
+	font-weight: bold;
+	text-decoration: none;
+}
+li{
+	/*A lista jelét a nap.png képre cserélje le! Illetve a listát a bal margóhoz képest rendezze 10%-kal beljebb!*/
+	list-style-image: url(nap.png);
+	margin-left: 10%;
+
+}
+dt{
+	/*15.	A css segítségével formázza a definíció címeket úgy, hogy a betűk #243f84 színűek és aláhúzottak legyenek!*/
+	color: #243f84;
+	text-decoration: underline;
+}
+#fel {
+	/*képet úsztassa jobbra, szélességét állítsa 5vw-re*/
+	width: 5%;
+	float: right;
+}
+#eredmeny{
+	font-weight: bold;/*A bekezdést formázza félkövér betűstílussal*/
+}
+input,button{
+	font-size: 18px;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+}
